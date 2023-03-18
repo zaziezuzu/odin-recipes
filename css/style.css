@@ -1,7 +1,36 @@
 body {
     background-color: rgb(255, 232, 195);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.recipe_img {
-    
+h1,
+.link {
+    background-color: rgb(248, 195, 149);
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    border-width: 5px;
+    border-color: brown;
+    border-style: groove;
+    width: 70%;
+    margin: 30px auto;
+    font-weight: lighter;
+}
+
+.link {
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    border-width: 2px;
+    border-color: brown;
+    border-style: groove;
+}
+
+img {
+    height: auto;
+    width: 300px;
 }
